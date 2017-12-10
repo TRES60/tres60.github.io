@@ -1,0 +1,288 @@
+.navbar-light .navbar-brand {
+  font-weight:700;
+  font-size:18px;
+}
+
+#navcol-1 {
+  font-size:12px;
+  font-weight:700;
+}
+
+.nav-item {
+  padding-left:5px;
+  padding-right:5px;
+}
+
+#first_text {
+  font-weight:700;
+  font-size:20px;
+  text-shadow:1px 1px 15px rgba(255,255,255,0.7);
+}
+
+.adaptfont1824 {
+  font-size:18px;
+}
+
+@media (min-width: 576px) {
+  .adaptfont1824 {
+    font-size:24px;
+  }
+}
+
+.adaptfont1821 {
+  font-size:18px;
+  font-weight:700;
+  letter-spacing:0px;
+}
+
+.adaptfont2430 {
+  font-size:24px;
+  font-weight:700;
+  letter-spacing:5px;
+}
+
+@media (min-width: 576px) {
+  .adaptfont1821 {
+    font-size:20.8px;
+  }
+}
+
+@media (min-width: 576px) {
+  .adaptfont2430 {
+    font-size:30px;
+  }
+}
+
+#ppal {
+}
+
+#logo {
+  padding-top:10px;
+  padding-bottom:50px;
+}
+
+#agency {
+  padding-bottom:50px;
+}
+
+#about_tour {
+  background-color:rgba(255,255,255,0.8);
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.colored {
+  background-color:rgba(255,106,26,0.95);
+  color:rgba(255,255,255,1);
+}
+
+.gallitem:nth-child(2n + 1) {
+  background-color:rgba(255,106,26,0.95);
+  color:rgba(255,255,255,1);
+}
+
+.gallitem:nth-child(2n) {
+  background-color:rgba(255,255,255,1);
+  color:rgba(255,106,26,0.95);
+}
+
+.pale {
+  background-color:rgba(255,255,255,1);
+  color:rgba(255,106,26,0.95);
+}
+
+.about-link {
+  color:rgb(68,68,68);
+  padding-left:10px;
+  text-decoration:none;
+  font-size:18px;
+}
+
+.contact-link {
+  color:rgb(255,255,255);
+  padding-left:10px;
+  text-decoration:none;
+}
+
+.about-link:hover {
+  color:rgb(68,68,68);
+  padding-left:10px;
+  text-decoration:none;
+}
+
+.contact-link:hover {
+  color:rgb(255,255,255);
+  padding-left:10px;
+  text-decoration:none;
+}
+
+.gallery-link {
+  color:#007bff;
+  text-decoration:none;
+  font-size:135%;
+}
+
+.gallery-link:hover {
+  color:#007bff;
+  text-decoration:none;
+  font-size:135%;
+}
+
+.about-icon {
+  font-size:19px;
+}
+
+.contact-icon {
+  font-size:19px;
+}
+
+.parallax {
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+}
+
+.footer {
+  background-color:#ffffff;
+  color:#4b4c4d;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.footer .copyright {
+  margin-top:10px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+#contact {
+  color:rgb(255,255,255);
+}
+
+.about-contact-data {
+  margin:5px auto 10px auto;
+  display:table;
+}
+
+.contact-data {
+  margin:5px 0 10px 0;
+  display:table;
+}
+
+@media (min-width: 992px) {
+  .contact-data {
+    margin:5px auto 10px auto;
+    display:table;
+  }
+}
+
+#faq {
+  color:rgb(255,255,255);
+}
+
+.dynamic-padding {
+  padding-bottom:40px;
+  padding-top:40px;
+}
+
+@media (min-width: 576px) {
+  .dynamic-padding {
+    padding-bottom:70px;
+    padding-top:70px;
+  }
+}
+
+#benefits {
+  color:rgb(255,255,255);
+}
+
+.gallelem-subtitle {
+  margin-bottom:5px;
+  margin-top:-5px;
+}
+
+.gallelem-title {
+  margin-bottom:0px;
+}
+
+.section-title {
+  margin-bottom:30px;
+}
+
+.dynamic-navbar {
+  min-height:60px;
+}
+
+@media (min-width: 576px) {
+  .dynamic-navbar {
+    min-height:80px;
+  }
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color:rgb(68, 68, 68);
+}
+
+.info-card-group {
+  margin-top:15px;
+}
+
+.info-card {
+  border-radius:.25rem;
+  -ms-flex:1 0 0%;
+  flex:1 0 0%;
+  margin-bottom:15px;
+  position:relative;
+  display:flex;
+  background-color:#fff;
+  background-clip:border-box;
+  border:1px solid rgba(0,0,0,.125);
+  border-radius:.25rem;
+}
+
+.info-card:last-child {
+  margin-bottom:0;
+}
+
+.info-card-body {
+  -ms-flex:1 1 auto;
+  flex:1 1 auto;
+  padding:1.25rem;
+}
+
+.info-card-title {
+  color:rgb(68, 68, 68);
+  font-size:16px;
+  font-weight:700;
+  margin-bottom:0em;
+}
+
+.info-card-text {
+  color:rgb(68, 68, 68);
+  font-size:14px;
+  font-weight:300;
+  margin-bottom:0;
+  margin-top:0.5rem;
+  padding-top:0.5rem;
+  text-align:justify;
+}
+
+.visits-text {
+  font-size:100%;
+  font-variant:small-caps;
+}
+
+.visits {
+  font-size:140%;
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+  .navbar-expand-md > .container, .navbar-expand-md > .container-fluid {
+    padding-right:15px;
+    padding-left:15px;
+  }
+}
+
