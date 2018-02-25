@@ -57,12 +57,12 @@
 }
 
 #logo {
-  padding-top:10px;
-  padding-bottom:50px;
+  padding-top:5px;
+  padding-bottom:5px;
 }
 
 #agency {
-  padding-bottom:50px;
+  padding-bottom:20px;
 }
 
 #about_tour {
@@ -199,6 +199,10 @@
   color:rgb(255,255,255);
 }
 
+#clients {
+  color:rgb(255,255,255);
+}
+
 .gallelem-subtitle {
   margin-bottom:5px;
   margin-top:-5px;
@@ -253,6 +257,13 @@
   padding:1.25rem;
 }
 
+.info-card-benefits {
+  color:rgb(68, 68, 68);
+  font-size:16px;
+  font-weight:normal;
+  margin-bottom:0em;
+}
+
 .info-card-title {
   color:rgb(68, 68, 68);
   font-size:16px;
@@ -284,5 +295,26 @@
     padding-right:15px;
     padding-left:15px;
   }
+}
+
+.btn-circle {
+  width:60px;
+  height:60px;
+  /*text-align:center;*/
+  padding:6px 0;
+  font-size:31px;
+  /*line-height:1.42;*/
+  border-radius:30px;
+}
+
+.btn-circle-wapp {
+  padding:0;
+  font-size:38px;
+}
+
+.btn-circle-wapp-shadow {
+  padding:0;
+  font-size:38px;
+  box-shadow:2px 2px 3px #999;
 }
 
