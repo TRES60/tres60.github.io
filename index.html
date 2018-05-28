@@ -34,15 +34,27 @@
         INICIO
        </a>
       </li>
-      <li class="nav-item" role="presentation">
-       <a class="nav-link active" href="#benefits" id="benefits-link">
-        BENEFICIOS
+      <li class="dropdown">
+       <a aria-expanded="false" class="dropdown-toggle nav-link dropdown-toggle active" data-toggle="dropdown" href="#">
+        SERVICIOS
        </a>
-      </li>
-      <li class="nav-item" role="presentation">
-       <a class="nav-link active" href="#tour" id="tour-link">
-        EJEMPLO
-       </a>
+       <div class="dropdown-menu" role="menu">
+        <a class="dropdown-item" href="http://tres60foto.com/recorridos/" id="tours-link" role="presentation">
+         Recorridos virtuales
+        </a>
+        <a class="dropdown-item" href="http://tres60foto.com/facebook/" id="smm-link" role="presentation">
+         Gestión de redes sociales
+        </a>
+        <a class="dropdown-item" href="http://tres60foto.com/video/" id="video-link" role="presentation">
+         Video
+        </a>
+        <a class="dropdown-item d-none" href="http://tres60foto.com/fotografia/" id="photo-link" role="presentation">
+         Fotografía
+        </a>
+        <a class="dropdown-item d-none" href="http://tres60foto.com/web/" id="webdev-link" role="presentation">
+         Páginas web
+        </a>
+       </div>
       </li>
       <li class="nav-item" role="presentation">
        <a class="nav-link active" href="#clients" id="clients-link">
@@ -50,27 +62,11 @@
        </a>
       </li>
       <li class="nav-item" role="presentation">
-       <a class="nav-link active" href="http://tres60foto.com/galeria/" id="gallery-link">
-        GALERÍA
+       <a class="nav-link active" href="#benefits" id="benefits-link">
+        BENEFICIOS
        </a>
       </li>
-      <li class="dropdown d-none">
-       <a aria-expanded="false" class="dropdown-toggle nav-link dropdown-toggle active" data-toggle="dropdown" href="#">
-        GALERÍA
-       </a>
-       <div class="dropdown-menu" role="menu">
-        <a class="dropdown-item" href="#" role="presentation">
-         FIRST ITEM
-        </a>
-        <a class="dropdown-item" href="#" role="presentation">
-         Second Item
-        </a>
-        <a class="dropdown-item" href="#" role="presentation">
-         Third Item
-        </a>
-       </div>
-      </li>
-      <li class="nav-item" role="presentation">
+      <li class="nav-item d-none" role="presentation">
        <a class="nav-link active" href="#faq" id="faq-link">
         FAQ
        </a>
@@ -84,7 +80,7 @@
     </div>
    </div>
   </nav>
-  <section class="parallax dynamic-padding" id="ppal" style='background-image:url("assets/img/cover-min.jpg");'>
+  <section class="parallax cover-dynamic-padding" id="ppal" style='background-image:url("assets/img/cover_ppal-min.jpg");'>
    <div class="container">
     <div class="row" id="logo">
      <div class="col-lg-6 offset-lg-3">
@@ -93,53 +89,74 @@
       </div>
      </div>
     </div>
-    <div class="row" id="agency">
-     <div class="col-lg-8 offset-lg-2">
-      <div class="text-center">
-       <p class="adaptfont1824" style="font-weight:700;text-shadow:1px 1px 15px rgba(255,255,255,0.7);">
-        Agencia de marketing digital
-        <br/>
-        especializada en recorridos virtuales
-       </p>
-      </div>
+   </div>
+  </section>
+  <section class="colored dynamic-padding" id="intro">
+   <div class="container">
+    <div class="row">
+     <div class="col-lg-12 text-center">
+      <p class="adaptfont2632" style="margin-bottom:-5px;">
+       <strong>
+        ENAMORA A TUS CLIENTES
+       </strong>
+      </p>
+      <p class="adaptfont2430">
+       <strong>
+        NOSOTROS LOS HACEMOS LLEGAR
+       </strong>
+      </p>
      </div>
     </div>
-    <div class="row" id="about_tour">
-     <div class="col-md-12 col-lg-10 offset-lg-1" style="margin-bottom:10px;">
-      <div class="text-center">
-       <p class="adaptfont2430" style="color:rgba(68,68,68,1);">
-        ¿QUÉ ES UN RECORRIDO VIRTUAL?
-       </p>
-       <p class="adaptfont1824" style="text-align:justify;font-weight:200;color:rgba(68,68,68,1);padding:0 15px 0 15px;">
-        Es una herramienta interactiva que cautiva y atrae más clientes a tu empresa, al permitirles recorrerla desde cualquier teléfono o computadora. Además incrementa tu presencia en internet y redes sociales.
-       </p>
+    <div class="row">
+     <div class="col-lg-12 text-center">
+      <p class="adaptfont1824" style="font-weight:300;margin-bottom:0px;">
+       En TRES60 te ayudamos a
+       <strong>
+        potenciar tu marca y atraer más clientes
+       </strong>
+       a través de innovadoras herramientas de márketing digital.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="pale dynamic-padding" id="services">
+   <div class="container">
+    <div class="row">
+     <div class="col-lg-12 text-center">
+      <p class="adaptfont2430 section-title">
+       SERVICIOS
+      </p>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-sm-6 col-md-4 col-lg-4 gall-services-card">
+      <div class="gall-photo-body" style='background-image:url("assets/img/services/service_tour.svg");'>
+       <a class="gall-photo-link" href="http://tres60foto.com/recorridos/" id="service_tour-link">
+       </a>
       </div>
      </div>
-     <div class="col-md-8 col-lg-8 offset-md-2 offset-lg-2 d-none" style="color:rgb(68,68,68);">
-      <div class="about-contact-data">
-       <a class="about-link" href="https://api.whatsapp.com/send?phone=5213121893041" style="margin-right:30px;" target="_blank">
-        <button class="btn btn-success btn-circle btn-circle-wapp-shadow" type="button">
-         <i class="fa fa-whatsapp">
-         </i>
-        </button>
+     <div class="col-sm-6 col-md-4 col-lg-4 gall-services-card">
+      <div class="gall-photo-body" style='background-image:url("assets/img/services/service_smm.svg");'>
+       <a class="gall-photo-link" href="http://tres60foto.com/facebook/" id="service_smm-link">
        </a>
-       <a class="about-link" href="tel:013121206301" style="margin-left:30px;" target="_blank">
-        <button class="btn btn-primary btn-circle" type="button">
-         <i class="fa fa-phone">
-         </i>
-        </button>
+      </div>
+     </div>
+     <div class="col-sm-6 col-md-4 col-lg-4 gall-services-card">
+      <div class="gall-photo-body" style='background-image:url("assets/img/services/service_video.svg");'>
+       <a class="gall-photo-link" href="http://tres60foto.com/video/" id="service_video-link">
        </a>
       </div>
      </div>
     </div>
    </div>
   </section>
-  <section class="colored dynamic-padding" id="video">
+  <section class="d-none colored dynamic-padding" id="video">
    <div class="container">
     <div class="row">
      <div class="col-lg-12 text-center">
       <p class="adaptfont2430 section-title">
-       DEJA QUE GOOGLE TE LO CUENTE
+       MARKETING DIGITAL
       </p>
      </div>
     </div>
@@ -153,12 +170,19 @@
     </div>
    </div>
   </section>
-  <section class="parallax dynamic-padding" id="benefits" style='background-image:url("assets/img/benefits-min.jpg");'>
+  <section class="parallax dynamic-padding" id="benefits" style='background-image:url("assets/img/benefits_1-min.jpg");'>
    <div class="container">
     <div class="row">
      <div class="col-lg-12 text-center" style="margin-bottom:10px;">
       <p class="adaptfont2430">
-       BENEFICIOS DE UN RECORRIDO VIRTUAL
+       BENEFICIOS PARA TU EMPRESA
+      </p>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-lg-12 text-center">
+      <p class="adaptfont1824" style="font-weight:300;">
+       Proyectar tu marca y darte a conocer de forma masiva es la tarea del marketing digital. Internet hace posible que atraigas nuevos clientes para hacer crecer tu empresa como siempre haz soñado.
       </p>
      </div>
     </div>
@@ -168,19 +192,11 @@
        <div class="info-card">
         <div class="info-card-body">
          <h4 class="info-card-benefits">
+          Te permite competir
           <span class="info-card-title">
-           Más clientes
-          </span>
-          . El 40% de los visitantes del Recorrido Virtual se convierten en nuevos clientes.
-         </h4>
-        </div>
-       </div>
-       <div class="info-card">
-        <div class="info-card-body">
-         <h4 class="info-card-benefits">
-          Haz
-          <span class="info-card-title">
-           tu empresa fácil de localizar y llegar
+           <strong>
+            al nivel de las grandes empresas
+           </strong>
           </span>
           .
          </h4>
@@ -189,15 +205,22 @@
        <div class="info-card">
         <div class="info-card-body">
          <h4 class="info-card-benefits">
-          Serás
+          Es más
           <span class="info-card-title">
-           más fácil de encontrar
+           barato
           </span>
-          y
+          y ofrece
           <span class="info-card-title">
-           más atractivo
+           más beneficios
           </span>
-          que tu competencia.
+          que la tv, el radio o cualquier medio impreso..
+         </h4>
+        </div>
+       </div>
+       <div class="info-card">
+        <div class="info-card-body">
+         <h4 class="info-card-benefits">
+          Sólo pagas por llegar a quien se convertirá en tu cliente.
          </h4>
         </div>
        </div>
@@ -208,19 +231,11 @@
        <div class="info-card">
         <div class="info-card-body">
          <h4 class="info-card-benefits">
-          Tu
+          Crea una
           <span class="info-card-title">
-           empresa
+           mayor cercanía e interacción
           </span>
-          abierta
-          <span class="info-card-title">
-           24 horas
-          </span>
-          los
-          <span class="info-card-title">
-           365 días
-          </span>
-          del año.
+          con tus clientes.
          </h4>
         </div>
        </div>
@@ -228,22 +243,16 @@
         <div class="info-card-body">
          <h4 class="info-card-benefits">
           <span class="info-card-title">
-           Mejorará tu posición en Google,
+           Proyecta confianza
           </span>
-          dónde ocurre el 98% de las búsquedas en internet,
-          <span class="info-card-title">
-           ¡¡¡tienes que estar ahí!!!
-          </span>
+          a nuevos clientes
          </h4>
         </div>
        </div>
        <div class="info-card">
         <div class="info-card-body">
          <h4 class="info-card-benefits">
-          <span class="info-card-title">
-           Resalta en Google Maps
-          </span>
-          . Convencerás a nuevos clientes de visitar tu empresa.
+          Puedes conocer el impacto real de tus campañas.
          </h4>
         </div>
        </div>
@@ -251,6 +260,19 @@
      </div>
      <div class="col-md-4 col-lg-4" data-aos="flip-right" data-aos-duration="700" data-aos-once="true">
       <div class="card-group d-block info-card-group">
+       <div class="info-card">
+        <div class="info-card-body">
+         <h4 class="info-card-benefits">
+          Estarás
+          <strong>
+          </strong>
+          <span class="info-card-title">
+           a la vista de TODO el mundo
+          </span>
+          , ¡literalmente!
+         </h4>
+        </div>
+       </div>
        <div class="info-card">
         <div class="info-card-body">
          <h4 class="info-card-benefits">
@@ -268,23 +290,13 @@
        <div class="info-card">
         <div class="info-card-body">
          <h4 class="info-card-benefits">
+          Consigues que tus
           <span class="info-card-title">
-           Facebook y sitio web más llamativos
+           clientes
           </span>
-          al integrar el Recorrido Virtual.
-         </h4>
-        </div>
-       </div>
-       <div class="info-card">
-        <div class="info-card-body">
-         <h4 class="info-card-benefits">
-          Publicidad que
+          se vuelvan
           <span class="info-card-title">
-           pagas una vez
-          </span>
-          y
-          <span class="info-card-title">
-           usas para siempre
+           embajadores de tu marca
           </span>
           .
          </h4>
@@ -295,230 +307,46 @@
     </div>
    </div>
   </section>
-  <section class="pale dynamic-padding" id="tour">
-   <div class="container">
-    <div class="row">
-     <div class="col-lg-12 text-center">
-      <p class="adaptfont2430 section-title">
-       TE DEJAMOS UN EJEMPLO
-      </p>
-     </div>
-    </div>
-    <div class="row">
-     <div class="col-lg-12">
-      <div class="embed-responsive embed-responsive-4by3">
-       <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m0!4v1506125417840!6m8!1m7!1sCAoSLEFGMVFpcE5PdFBrbGxWNVpqOU1vaW05S0swVjZBaVF6TGVrUnRsUXpPWTJZ!2m2!1d19.2660545977192!2d-103.7361714681534!3f121.32!4f-10.010000000000005!5f0.7820865974627469">
-       </iframe>
-      </div>
-     </div>
-    </div>
-    <div class="row">
-     <div class="col-lg-12 text-center">
-      <p class="adaptfont2430" style="margin-top:30px;margin-bottom:0px;">
-       VISITA NUESTRA
-       <a class="gallery-link" href="http://tres60foto.com/galeria/" id="tour2gallery-link">
-        GALERÍA
-       </a>
-      </p>
-     </div>
-    </div>
-   </div>
-  </section>
-  <section class="parallax dynamic-padding" id="clients" style='background-image:url("assets/img/bistro-min.jpg");'>
+  <section class="pale dynamic-padding" id="clients">
    <div class="container">
     <div class="row">
      <div class="col-lg-12 text-center" style="margin-bottom:10px;">
-      <p class="adaptfont2430">
-       NUESTROS CLIENTES
+      <p class="adaptfont2430" style="color:rgba(255,106,26,0.95);">
+       ELLOS CONFÍAN EN NOSOTROS
       </p>
      </div>
     </div>
     <div class="row" id="clients-gall">
-     <div class="col-sm-6 col-md-4 col-lg-3 gall-photo-card">
-      <div class="gall-photo-body" style='background-image:url("assets/img/minigall/lamqaltz.jpg");'>
-       <a class="gall-photo-link" href="http://tres60foto.com/galeria/#lamqaltz">
-       </a>
-       <div class="gall-photo-textbox">
-        <h5>
-         LAMARQ Altozano
-        </h5>
-        <p>
-         Bienes Raices
-        </p>
-       </div>
+     <div class="col-sm-4 col-md-3 col-lg-3 gall-client-card">
+      <div class="gall-photo-body" style='background-image:url("assets/img/cgall/cg_i_1.png");'>
       </div>
      </div>
-     <div class="col-sm-6 col-md-4 col-lg-3 gall-photo-card">
-      <div class="gall-photo-body" style='background-image:url("assets/img/minigall/rincrust.jpg");'>
-       <a class="gall-photo-link" href="http://tres60foto.com/galeria/#rincrust">
-       </a>
-       <div class="gall-photo-textbox">
-        <h5>
-         El Rincón Rústico
-        </h5>
-        <p>
-         Restaurante
-        </p>
-       </div>
+     <div class="col-sm-4 col-md-3 col-lg-3 gall-client-card">
+      <div class="gall-photo-body" style='background-image:url("assets/img/cgall/cg_f_2.png");'>
       </div>
      </div>
-     <div class="col-sm-6 col-md-4 col-lg-3 gall-photo-card">
-      <div class="gall-photo-body" style='background-image:url("assets/img/minigall/concpvilla.jpg");'>
-       <a class="gall-photo-link" href="http://tres60foto.com/galeria/#concpvilla">
-       </a>
-       <div class="gall-photo-textbox">
-        <h5>
-         Concierge Plaza la villa
-        </h5>
-        <p>
-         Hotel
-        </p>
-       </div>
+     <div class="col-sm-4 col-md-3 col-lg-3 gall-client-card">
+      <div class="gall-photo-body" style='background-image:url("assets/img/cgall/cg_d_1.png");'>
       </div>
      </div>
-     <div class="col-sm-6 col-md-4 col-lg-3 gall-photo-card">
-      <div class="gall-photo-body" style='background-image:url("assets/img/minigall/dracass.jpg");'>
-       <a class="gall-photo-link" href="http://tres60foto.com/galeria/#dracass">
-       </a>
-       <div class="gall-photo-textbox">
-        <h5>
-         Dra. Peñaloza
-        </h5>
-        <p>
-         Consultorio Médico
-        </p>
-       </div>
+     <div class="col-sm-4 col-md-3 col-lg-3 gall-client-card">
+      <div class="gall-photo-body" style='background-image:url("assets/img/cgall/cg_l_1.png");'>
       </div>
      </div>
-     <div class="col-sm-6 col-md-4 col-lg-3 gall-photo-card">
-      <div class="gall-photo-body" style='background-image:url("assets/img/minigall/festdmuer.jpg");'>
-       <a class="gall-photo-link" href="http://tres60foto.com/galeria/#festdmuer">
-       </a>
-       <div class="gall-photo-textbox">
-        <h5>
-         Día de Muertos 2017
-        </h5>
-        <p>
-         Festival
-        </p>
-       </div>
+     <div class="col-sm-4 col-md-3 col-lg-3 gall-client-card">
+      <div class="gall-photo-body" style='background-image:url("assets/img/cgall/cg_a_1.png");'>
       </div>
      </div>
-     <div class="col-sm-6 col-md-4 col-lg-3 gall-photo-card">
-      <div class="gall-photo-body" style='background-image:url("assets/img/minigall/lamqcolb.jpg");'>
-       <a class="gall-photo-link" href="http://tres60foto.com/galeria/#lamqcolb">
-       </a>
-       <div class="gall-photo-textbox">
-        <h5>
-         LAMARQ Colibri
-        </h5>
-        <p>
-         Bienes Raices
-        </p>
-       </div>
+     <div class="col-sm-4 col-md-3 col-lg-3 gall-client-card">
+      <div class="gall-photo-body" style='background-image:url("assets/img/cgall/cg_c_2.png");'>
       </div>
      </div>
-     <div class="col-sm-6 col-md-4 col-lg-3 gall-photo-card">
-      <div class="gall-photo-body" style='background-image:url("assets/img/minigall/angorg.jpg");'>
-       <a class="gall-photo-link" href="http://tres60foto.com/galeria/#angorg">
-       </a>
-       <div class="gall-photo-textbox">
-        <h5>
-         Ángeles Originales
-        </h5>
-        <p>
-         Minorista
-        </p>
-       </div>
+     <div class="col-sm-4 col-md-3 col-lg-3 gall-client-card">
+      <div class="gall-photo-body" style='background-image:url("assets/img/cgall/cg_f_1.png");'>
       </div>
      </div>
-     <div class="col-sm-6 col-md-4 col-lg-3 gall-photo-card">
-      <div class="gall-photo-body" style='background-image:url("assets/img/minigall/cabelcondr.jpg");'>
-       <a class="gall-photo-link" href="http://tres60foto.com/galeria/#cabelcondr">
-       </a>
-       <div class="gall-photo-textbox">
-        <h5>
-         Cabañas del Condor
-        </h5>
-        <p>
-         Hotel
-        </p>
-       </div>
-      </div>
-     </div>
-     <div class="col-sm-6 col-md-4 col-lg-3 gall-photo-card">
-      <div class="gall-photo-body" style='background-image:url("assets/img/minigall/camptrap.jpg");'>
-       <a class="gall-photo-link" href="http://tres60foto.com/galeria/#camptrap">
-       </a>
-       <div class="gall-photo-textbox">
-        <h5>
-         Campestre el Trapiche
-        </h5>
-        <p>
-         Restaurante
-        </p>
-       </div>
-      </div>
-     </div>
-     <div class="col-sm-6 col-md-4 col-lg-3 gall-photo-card gall-photo-hide">
-      <div class="gall-photo-body" style='background-image:url("assets/img/minigall/ingindvcol.jpg");'>
-       <a class="gall-photo-link" href="http://tres60foto.com/galeria/#ingindvcol">
-       </a>
-       <div class="gall-photo-textbox">
-        <h5>
-         Inglés Individual, Col.
-        </h5>
-        <p>
-         Centro Educativo
-        </p>
-       </div>
-      </div>
-     </div>
-     <div class="col-sm-6 col-md-4 col-lg-3 gall-photo-card gall-photo-hide">
-      <div class="gall-photo-body" style='background-image:url("assets/img/minigall/drnap.jpg");'>
-       <a class="gall-photo-link" href="http://tres60foto.com/galeria/#drnap">
-       </a>
-       <div class="gall-photo-textbox">
-        <h5>
-         Dr. Napoleón Mejía
-        </h5>
-        <p>
-         Consultorio Médico
-        </p>
-       </div>
-      </div>
-     </div>
-     <div class="col-sm-6 col-md-4 col-lg-3 gall-photo-card gall-photo-hide">
-      <div class="gall-photo-body" style='background-image:url("assets/img/minigall/jardbeat.jpg");'>
-       <a class="gall-photo-link" href="http://tres60foto.com/galeria/#jardbeat">
-       </a>
-       <div class="gall-photo-textbox">
-        <h5>
-         Jardin El Beaterio, Col.
-        </h5>
-        <p>
-         Parque
-        </p>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </section>
-  <section class="pale dynamic-padding" id="reviews">
-   <div class="container">
-    <div class="row">
-     <div class="col-lg-12 text-center">
-      <p class="adaptfont2430 section-title">
-       OPINIONES
-      </p>
-     </div>
-    </div>
-    <div class="row">
-     <div class="col-lg-12">
-      <div class="embed-responsive embed-responsive-16by9">
-       <iframe allowfullscreen="" class="embed-responsive-item" src="https://www.youtube.com/embed/-2MKZqb_Onc">
-       </iframe>
+     <div class="col-sm-4 col-md-3 col-lg-3 gall-client-card">
+      <div class="gall-photo-body" style='background-image:url("assets/img/cgall/cg_c_1.png");'>
       </div>
      </div>
     </div>
@@ -546,7 +374,17 @@
        <div class="info-card">
         <div class="info-card-body">
          <h4 class="info-card-title">
-          ¿Es un único pago?
+          ¿Me pueden asesorar sobre el tipo de marketing que mi empresa requiere antes de contratar un servicio?
+         </h4>
+         <p class="info-card-text">
+          Claro que si, antes de hacerte una propuesta nos enfocaremos en conocer tus necesidades y crear una solución personalizada.
+         </p>
+        </div>
+       </div>
+       <div class="info-card">
+        <div class="info-card-body">
+         <h4 class="info-card-title">
+          ¿El recorrido virtual es un único pago?
          </h4>
          <p class="info-card-text">
           <span style="font-weight:bold;">
@@ -560,26 +398,6 @@
            los usas para siempre
           </strong>
           .
-         </p>
-        </div>
-       </div>
-       <div class="info-card">
-        <div class="info-card-body">
-         <h4 class="info-card-title">
-          ¿Tienen opciones para pequeñas empresas?
-         </h4>
-         <p class="info-card-text">
-          Tenemos paquetes desde una foto 360 para hacer lucir tu empresa.
-         </p>
-        </div>
-       </div>
-       <div class="info-card">
-        <div class="info-card-body">
-         <h4 class="info-card-title">
-          ¿En cuánto tiempo estará listo el Recorrido Virtual de mi empresa?
-         </h4>
-         <p class="info-card-text">
-          Nuestro compromiso de entrega es de 90 horas después de realizar la sesión fotográfica.
          </p>
         </div>
        </div>
@@ -603,10 +421,10 @@
        <div class="info-card">
         <div class="info-card-body">
          <h4 class="info-card-title">
-          Si en el futuro hago cambios o remodelaciones ¿puedo integrarlos al Recorrido Virtual?
+          ¿En cuánto tiempo estará listo el Recorrido Virtual de mi empresa?
          </h4>
          <p class="info-card-text">
-          Claro que sí, ofrecemos un servicio de "retake" parcial o total con descuentos de hasta el 50%
+          Nuestro compromiso de entrega es de 90 horas después de realizar la sesión fotográfica.
          </p>
         </div>
        </div>
@@ -617,30 +435,20 @@
        <div class="info-card">
         <div class="info-card-body">
          <h4 class="info-card-title">
-          ¿Cuáles son los beneficios de tener un Recorrido Virtual de mi empresa?
+          ¿El Recorrido Virtual estará solamente en Google Maps?.
          </h4>
          <p class="info-card-text">
-          <a href="#benefits">
-           Detalles de los beneficios ...
-          </a>
+          No, también puedes incluirlo en  facebook, en tu página web y compartirlo por Whatsapp.
          </p>
         </div>
        </div>
        <div class="info-card">
         <div class="info-card-body">
          <h4 class="info-card-title">
-          ¿El Recorrido Virtual estará solamente en Google Maps?.
+          Si en el futuro hago cambios o remodelaciones ¿puedo integrarlos al Recorrido Virtual?
          </h4>
          <p class="info-card-text">
-          No, te asesoramos para postear fotos 360 en tu página de
-          <strong>
-           facebook
-          </strong>
-          , e insertar el recorrido en tu
-          <strong>
-           página de internet
-          </strong>
-          .
+          Claro que sí, ofrecemos un servicio de "retake" parcial o total con descuentos de hasta el 50%
          </p>
         </div>
        </div>
@@ -661,7 +469,7 @@
     <div class="row">
      <div class="col-lg-12 text-center">
       <p class="adaptfont1824" style="margin-bottom:50px;font-weight:300;">
-       En TRES60 queremos ayudarte a hacer brillar tu empresa. Si tienes alguna pregunta, o deseas que te visitemos, no dudes en contactarnos!
+       En TRES60 queremos ayudarte a hacer brillar tu empresa. Si tienes alguna pregunta, o deseas que te visitemos, no dudes en contactarnos.
       </p>
      </div>
     </div>
@@ -720,7 +528,7 @@
     </a>
    </div>
    <div>
-    <a class="about-link" href="https://api.whatsapp.com/send?phone=5213121893041" id="whatsapp-btn" style="padding:0;" target="_blank">
+    <a class="about-link" href="https://api.whatsapp.com/send?phone=5213121893041&amp;text=Hola,%20me%20interesa%20atraer%20más%20clientes%20a%20mi%20empresa,%20me%20puedes%20dar%20más%20información%20sobre%20los%20servicios%20de%20TRES60?" id="whatsapp-btn" style="padding:0;" target="_blank">
      <button class="btn btn-success btn-circle btn-circle-wapp" type="button">
       <i class="fa fa-whatsapp">
       </i>

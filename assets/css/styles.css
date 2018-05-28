@@ -41,9 +41,21 @@
   letter-spacing:5px;
 }
 
+.adaptfont2632 {
+  font-size:26px;
+  font-weight:700;
+  letter-spacing:5px;
+}
+
 @media (min-width: 576px) {
   .adaptfont1821 {
     font-size:20.8px;
+  }
+}
+
+@media (min-width: 576px) {
+  .adaptfont2632 {
+    font-size:34px;
   }
 }
 
@@ -183,9 +195,21 @@
   color:rgb(255,255,255);
 }
 
+.cover-dynamic-padding {
+  padding-bottom:100px;
+  padding-top:80px;
+}
+
 .dynamic-padding {
   padding-bottom:40px;
   padding-top:40px;
+}
+
+@media (min-width: 576px) {
+  .cover-dynamic-padding {
+    padding-bottom:175px;
+    padding-top:140px;
+  }
 }
 
 @media (min-width: 576px) {
@@ -340,11 +364,75 @@
   box-shadow:2px 2px 3px #999;
 }
 
+@media (max-width: 576px) {
+  .gall-services-card {
+    padding:7px 4pc;
+    position:relative;
+    text-align:center!important;
+  }
+}
+
+@media (max-width: 575px) {
+  .gall-client-card {
+    padding:7px 4pc;
+    position:relative;
+    text-align:center!important;
+  }
+}
+
 @media (max-width: 575px) {
   .gall-photo-card {
     padding:7px 30px;
     position:relative;
     text-align:center!important;
+  }
+}
+
+@media (min-width: 576px) {
+  .gall-service-card {
+    text-align:center!important;
+    padding:5px 5px;
+    position:relative;
+  }
+}
+
+@media (min-width: 576px) {
+  gall-services-card {
+    text-align:center!important;
+    padding:5px 5px;
+    position:relative;
+  }
+}
+
+@media (min-width: 992px) {
+  .gall-services-card {
+    text-align:center!important;
+    padding:4pc;
+    position:relative;
+  }
+}
+
+@media (min-width: 577) and (max-width: 991px) {
+  .gall-services-card {
+    text-align:center!important;
+    padding:1pc;
+    position:relative;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .gall-client-card {
+    text-align:center!important;
+    padding:1pc;
+    position:relative;
+  }
+}
+
+@media (min-width: 992px) {
+  .gall-client-card {
+    text-align:center!important;
+    padding:2pc;
+    position:relative;
   }
 }
 
@@ -401,5 +489,15 @@
   .gall-photo-hide {
     display:none;
   }
+}
+
+ul.paq-list li {
+  margin-bottom:10px;
+}
+
+.paq-list {
+  padding-left:20px;
+  text-align:left;
+  font-size:16px;
 }
 
